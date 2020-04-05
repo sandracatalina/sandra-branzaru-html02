@@ -2,6 +2,16 @@ body {
   padding: 150px;
 }
 
+.my-heading,
+.martie,
+.under {
+  display: none;
+}
+
+.clearfix {
+  overflow: hidden;
+}
+
 .box {
   width: 150px;
   height: 150px;
@@ -32,29 +42,72 @@ body {
 
 
 @media (max-width: 576px) {
-.box-2 {
-  display: none;
-}
+  body {
+    padding: 15px;
+  }
+
+  .box-1 {
+    display: none;
+  }
+
+  .box-2 {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
-.box-5 {
- color: white;
-}
-}
+  .box-3 {
+    border: 1px solid #0F0;
+  }
 
-.box-3 {border: 1px green;}
+  .box-5 {
+    color: #FFF;
+  }
+}
 
 @media (max-width: 992px) {
-.box-4 {
-  display: none;
-}
-}
-.box-3 {
-  display: none;
+  .box-2 {
+    color: #FFF;
+    border: 1px solid #FF0;
+  }
+
+  .box-3 {
+    display: none;
+  }
 }
 
 @media (max-width: 1200px) {
-  .box-5 {display: none;
+ .box-5 {
+    display: none;
+  }
+}
+
+@media (min-width: 993px) {
+  .box-4 {
+    color: red;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .my-heading {
+    display: block;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 1000px) {
+  .martie {
+    display: block;
+  }
+}
+
+@media (min-width: 576px) {
+  .under {
+    display: block;
+  }
+}
+
+@media (min-width: 1000px) {
+  .under {
+    display: none;
   }
 }

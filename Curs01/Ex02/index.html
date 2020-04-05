@@ -5,21 +5,20 @@
   <title>Picture & srcset</title>
 </head>
 <body>
-<picture>
+  <picture>
+    <source media="(max-width: 576px)"
+      srcset="images/w150.png"
+    >
 
-  <source media="(max-width:576px)"
-  srcset ="images/w150.png"
->
- <source media="(max-width:768px)"
- srcset="images/w420.png" 
- >
+    <source media="(max-width: 768px)"
+      srcset="images/w420.png"
+    >
 
- <source media="(max-width:992px)"
- srcset="images/w920.png" 
- >
+    <source media="(max-width: 992px)"
+      srcset="images/w820.png"
+    >
 
- <img src="images/w1900.png" alt="">
-</picture>
+    <img src="images/w1900.png" alt="">
+  </picture>
 </body>
 </html>
-
