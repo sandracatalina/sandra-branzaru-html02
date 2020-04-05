@@ -1,0 +1,1 @@
+ul a{text-decoration:none;color:red}ul a:hover{text-decoration:underline}ul a:visited{color:purple}ol a{color:#f0f}ol a:active{color:pink}ol a:visited{color:#f08080}.all-visited ol a{text-decoration:line-through}.para{padding:10px 20px}.reverse .para{width:50%;margin:0 auto}.para-short{width:50%;margin:0 auto}.reverse .para-short{width:100%}

@@ -2,9 +2,11 @@ ul a {
   text-decoration: none;
   color: red;
 }
+
 ul a:hover {
   text-decoration: underline;
 }
+
 ul a:visited {
   color: purple;
 }
@@ -12,12 +14,15 @@ ul a:visited {
 ol a {
   color: magenta;
 }
+
 ol a:active {
   color: pink;
 }
+
 ol a:visited {
   color: lightcoral;
 }
+
 .all-visited ol a {
   text-decoration: line-through;
 }
@@ -25,6 +30,7 @@ ol a:visited {
 .para {
   padding: 10px 20px;
 }
+
 .reverse .para {
   width: 50%;
   margin: 0 auto;
@@ -34,8 +40,7 @@ ol a:visited {
   width: 50%;
   margin: 0 auto;
 }
+
 .reverse .para-short {
   width: 100%;
 }
-
-/*# sourceMappingURL=style.css.map */
