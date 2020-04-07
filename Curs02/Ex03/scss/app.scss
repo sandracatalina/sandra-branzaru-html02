@@ -12,18 +12,20 @@ body {
 }
 
 .box-1 {
-  margin-top: $sm;
+  margin-top: $sm + ($xs / 2);
+  padding-left: $sm -2;
 }
 
 .box-2 {
-  margin: $sm $xl;
-  padding: $md;
+  margin: ($md+ $md) $sm $xl $xl;
+  padding: ($xs +$sm) /2;
 }
 
 .box-3 {
-  padding: $lg 0 0 0;
-  border-width: $sm;
-  margin-right: $lg;
+  padding: $lg - 2 0 0 0;
+  border-width: $sm / 4;
+  margin-right: $lg / 16;
+
 }
 
 .box-4 {

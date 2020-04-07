@@ -1,0 +1,27 @@
+@mixin shape ($type:'square', $size: 200px) {
+    width: $size;
+    height: $size;
+    border: 1px solid black;
+
+    @if $type=='diamond' {
+    transform:rotate(45deg);
+    }
+
+    @if $type == 'diamond' {
+    border-radius: $size
+}
+}
+
+.my-square {
+    @include shape();
+}
+
+.my-diamond {
+    @include shape ('diamond', 40px);
+
+    margin: 45px;
+}
+
+.my-circle {
+    @include shape('circle',100px )
+}
