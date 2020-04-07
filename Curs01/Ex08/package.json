@@ -1,0 +1,13 @@
+{
+  "name": "quick-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify": "./node_modules/.bin/sass ./scss/app.scss ./css/style.css --style compressed",
+    "watch": "./node_modules/.bin/sass --watch ./scss/app.scss:./css/style.css",
+  },
+  "author": "",
+  "license": "ISC"
+}
