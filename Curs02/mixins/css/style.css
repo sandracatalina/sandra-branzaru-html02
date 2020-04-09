@@ -1,0 +1,22 @@
+/* Error: No argument named $arrow-color.
+ *     ,
+ * 1   | @mixin arrow-left($color:red) {
+ *     |        ====================== declaration
+ * ... |
+ * 18  |         @include arrow-left($arrow-color: #000);
+ *     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ invocation
+ *     '
+ *   scss\app.scss 18:9  arrow-left()
+ *   scss\app.scss 18:9  btn()
+ *   scss\app.scss 36:5  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: No argument named $arrow-color.\a     \2577 \a 1   \2502  @mixin arrow-left($color:red) {\d\a     \2502         \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  declaration\a... \2502 \a 18  \2502          @include arrow-left($arrow-color: #000);\d\a     \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ invocation\a     \2575 \a   scss\\app.scss 18:9  arrow-left()\a   scss\\app.scss 18:9  btn()\a   scss\\app.scss 36:5  root stylesheet";
+}

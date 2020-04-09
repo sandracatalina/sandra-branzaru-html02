@@ -9,3 +9,31 @@
   height: 150px;
   border: 1px solid #000;
 }
+
+@for $i from 1 through 5 {
+  .box-#{$i {
+    border-width: #{$i}px;
+  }
+}
+
+@for $i from 1 to 5 {
+  .box-0:#{$i}px;
+  height: #{$i}px;
+ }
+}
+
+@for $i from 1 to 6 {
+  .box-0:#{$i} {
+    width: #{$i * 5}px;
+    height: #{$i * 5}px;
+  }
+
+  }
+  height: #{$i}px;
+ }
+
+
+
+@for $i from 1 through 5 {
+  @if $i /2
+}

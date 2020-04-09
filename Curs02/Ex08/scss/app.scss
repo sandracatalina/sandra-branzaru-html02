@@ -9,3 +9,19 @@
   height: 150px;
   border: 1px solid #000;
 }
+
+$borders: dotted, dashed, solid, double, none;
+
+@each $border in $borders {
+  .b-#{$border} {
+    border-style:$border;
+
+  }
+}
+
+$margins: ("xs": 4px, "sm": 8px, "md": 16px, "lg": 32px);
+@each $key, $value in $margins {
+  .m-#{$key} {
+    margin: $value;
+  }
+}
