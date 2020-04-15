@@ -1,32 +1,68 @@
+  
 .squares {
-    width:80%;
-    margin:0 auto;
+    width: 80%;
+    margin: 0 auto; 
     padding: 10px;
+    border: 1px solid #000;
+  }
+  
+  .square {
+    width: 200px; 
+    height: 200px;
+    border: 1px solid #000; 
+    background-color: turquoise;
+  }
+  
+  .square-magenta {
+    @extend .square;
+  
+    background-color: magenta;
+  }
+  
+  .square-peru {
+    @extend .square;
+  
+    background-color: peru;
+  }
+  
+  .square-purple {
+    @extend .square;
+  
+    background-color: purple;
+  }
+.circles {
+    widows: 5012.5%;
+    border-radius: 50%;
+    margin:0 auto;
+    padding: 100px;
     border: 1px solid black;
-}
 
-.square {
+}
+.circle {
     width: 200px;
     height:200px;
+    border-radius: 50%;
     border:1px solid black;
-    background-color: turquoise;
+    background-color:brown;
+}
+    
+    .circle-red {
+        @extend .circle;
+
+        background-color: red;
+    }
+    
+
+.circle-green {
+    @extend .circle;
+
+    background-color:green;
 }
 
-.square-magenta {
-    @extend .square;
+.circle-blue {
+    @extend .circle;
 
-    background-color:magenta;
+    background-color:blue;
 }
-
-.square-peru {
-    @extend .square;
-
-    background-color:peru;
-}
-
-.square-purple {
-    @extend .square;
-
-    background-color:purple;
-}
+ 
 
