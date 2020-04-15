@@ -7,9 +7,13 @@
 }
 
 .btn-inverted {
-  color: transparent;
+  background-color: transparent;
 }
 
 .btn-inverted-light {
   background-color: lightgray;
+}
+
+.btn-inverted-text-gray {
+  color: gray;
 }

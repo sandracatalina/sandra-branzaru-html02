@@ -1,10 +1,18 @@
-@mixin btn-class($class-name: '.btn', $prop-name: 'color', $color-name:red) {
-    #{$class-name} {
-      #{$prop-name}: $color-name;
-    }
+@mixin btn-class($class-name: '.btn', $prop-name: 'color', $color-name: red) {
+  #{$class-name} {
+    #{$prop-name}: $color-name;
+  }
 }
 
 @include btn-class('.btn-primary', 'color', purple);
-@include btn-class('.btn-secondary', 'color',blue);
-@include btn-class('.btn-inverted', 'color', transparent);
-@include btn-class('.btn-inverted-light', 'background-color',lightgray)
+@include btn-class('.btn-secondary', 'color', blue);
+@include btn-class('.btn-inverted', 'background-color', transparent);
+@include btn-class('.btn-inverted-light', 'background-color', lightgray);
+
+@mixin btn-text-gray($class-name: '.btn',$prop-name: 'color', $color-name:gray) {
+  #{$class-name} {
+    #{$prop-name}: $color-name;
+  }
+}
+
+@include btn-text-gray('.btn-inverted-text-gray', 'color', gray);
