@@ -1,4 +1,4 @@
-@import 'spacing';
+@import '_spacing';
 
 body {
   display: flex;
@@ -13,29 +13,34 @@ body {
 
 .box-1 {
   margin-top: $sm + ($xs / 2);
-  padding-left: $sm -2;
+  padding-left: $sm - 2;
 }
 
 .box-2 {
-  margin: ($md+ $md) $sm $xl $xl;
-  padding: ($xs +$sm) /2;
+  margin: ($md + $md) $xl $sm $xl;
+  padding: ($xs + $sm) / 2;
 }
 
 .box-3 {
   padding: $lg - 2 0 0 0;
   border-width: $sm / 4;
   margin-right: $lg / 16;
-
 }
 
 .box-4 {
-  margin-top: $lg; 
-  border-width: $md;
-  padding: 25px;
+  margin-top: ($lg+$lg)+$xs / 2 +$xs; 
+  border-width:  $sm / 4;
+  padding: $sm+$xs;
 }
 
 .box-5 {
-  margin: $sm $xl;
-  border-width: $md; 
-  padding: $lg;
+  margin-top: ($lg+$lg)-$xs;
+  margin-bottom: ($lg+$lg)-$xs;
+  margin-left: $xs / 2;
+  margin-right:$xs / 2; ;
+  border-width: ($sm + $sm) / 4;
+  padding-left: $sm+ ($xs / 2);
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
