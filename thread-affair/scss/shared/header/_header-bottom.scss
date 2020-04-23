@@ -1,0 +1,40 @@
+.header-bottom {
+    position: relative;
+  
+    .nav-main {
+      position: absolute;
+      top: 0;
+      left: -100vw;
+      background-color: rgba($brand-main, .7);
+      width: 100vw;
+      height: 100vh;
+      transition: left .5s;
+  
+      .menu-open & {
+        left: 0;
+      }
+  
+      ul {
+        margin-top: 100px;
+        text-align: center;
+  
+        li {
+          margin-bottom: 20px;
+        }
+  
+        a {
+          color: $white;
+          text-transform: uppercase;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  
+  .hack-menu {
+    display: none;
+  
+    &:checked + .nav-main {
+      left: 0;
+    }
+  }
