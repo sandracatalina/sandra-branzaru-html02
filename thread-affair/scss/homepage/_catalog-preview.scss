@@ -1,18 +1,33 @@
 .catalog-preview {
-    text-align: center;
-  
-    h1 {
-      color: $brand-main;
-      text-transform: uppercase;
-      font-size: 24px;
-    }
-  
+  text-align: center;
+
+  h1 {
+    color: $brand-main;
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  &:nth-of-type(2) {
+    h1,
     p {
-      font-size: 14px;
-      margin: 0;
+      display: none;
+    }
+
+    .product-tile {
+      display: none;
+
+      &:first-child {
+        display: block;
+      }
     }
   }
-  
-  .catalog-preview-tiles {
-    margin-top: 40px;
-  }
+}
+
+.catalog-preview-tiles {
+  margin-top: 40px;
+}

@@ -1,4 +1,52 @@
 .footer-top {
-  background-color: #1B1927;
-  color: #AEAEAE;
+  $blue-footer: #1B1927;
+  $gray-footer: #AEAEAE;
+
+  background-color: $blue-footer;
+  color: $gray-footer;
+
+  a {
+    color: $gray-footer;
+  }
+
+  .cont {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 45px 0 5px 0;
+
+    ul {
+      width: 50%;
+      margin-bottom: 40px;
+
+      li {
+        margin-bottom: 15px;
+      }
+
+      &.footer-contact {
+        width: 100%;
+        order: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li {
+          margin: 0 10px;
+        }
+
+        a {
+          text-transform: uppercase;
+          font-weight: 300;
+          font-size: 14px;
+        }
+
+        i {
+          display: block;
+          text-align: center;
+          color: $brand-main;
+          font-size: 25px;
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
 }

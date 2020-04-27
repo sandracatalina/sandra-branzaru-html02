@@ -6,6 +6,8 @@ $fa-font-path: '/fonts';
 @import './../node_modules/@fortawesome/fontawesome-free/scss/brands';
 @import './../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
 
+// site fonts
+@import './fonts';
 
 @import './../node_modules/bootstrap/scss/bootstrap-reboot';
 
@@ -16,3 +18,8 @@ $fa-font-path: '/fonts';
 @import './shared/index';
 @import './homepage/index';
 @import './category/index';
+
+body {
+  font-family: Roboto, sans-serif;
+  color: $gray-secondary;
+}
