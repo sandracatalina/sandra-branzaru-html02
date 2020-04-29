@@ -37,3 +37,21 @@
   color: #fff;
 }
 /* do not touch this */
+
+.flex-container-01 {
+  flex-direction: :row-reverse;
+  justify-content:center;
+  align-items:center;
+}
+
+.flex-container-02 {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-container-02 {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -23,6 +23,7 @@ body {
   flex-basis: 75px;
   max-width: 75px; 
   height: 75px; 
+  width: ;
   flex-shrink: 1;
   border: 1px solid red; 
   background-color: #000;
@@ -47,3 +48,24 @@ body {
   color: #fff;
 }
 /* do not touch this */
+
+.flex-container-01 {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-container-02 {
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-container-03 {
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+.flex-container-04 {
+  flex-direction: ;
+}

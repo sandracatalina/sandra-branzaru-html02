@@ -41,3 +41,30 @@
   color: #fff;
 }
 /* do not touch this */
+
+.flex-container-01 {
+  align-items: flex-end;
+  justify-content: space-around;
+}
+.flex-container-01 .flex-item-03 {
+  align-self: center;
+}
+
+.flex-container-02 {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-02 .flex-item:nth-child(5) {
+  align-self: stretch;
+  height: auto;
+}
+
+.flex-container-03 {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-container-03 div:nth-of-type(2) {
+  align-self: flex-start;
+}

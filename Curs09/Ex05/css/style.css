@@ -47,3 +47,36 @@ body {
   color: #fff;
 }
 /* do not touch this */
+
+.flex-container-01 {
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-end;
+}
+
+.flex-container-01 :last-child {
+  align-self: flex-start;
+}
+
+.flex-container-02 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.flex-container-02 div:nth-of-type(3) {
+  align-self: stretch;
+  max-width: initial;
+}
+
+.flex-container-03 {
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flex-container-03 .flex-item-03 {
+  align-self: stretch;
+  max-width: initial;
+}
+

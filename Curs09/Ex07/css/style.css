@@ -47,3 +47,37 @@ body {
   color: #fff;
 }
 /* do not touch this */
+
+.flex-container-01 {
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.flex-container-01 .flex-item-2 {
+  flex-grow: 2;
+}
+
+.flex-container-01 .flex-item-4 {
+  flex-grow: 1;
+}
+
+.flex-container-02 {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.flex-container-02 :nth-child(2) {
+  flex-grow:1;
+}
+
+.flex-container-03 {
+  flex-direction: column-reverse;
+}
+
+#my-id-1 {
+  flex-grow: 2;
+}
+
+#my-id-3 {
+flex-grow:1;
+}

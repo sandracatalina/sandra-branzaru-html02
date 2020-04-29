@@ -20,7 +20,7 @@ body {
   display: flex; 
   justify-content: center;
   align-items: center;
-  flex-basis: 150px;
+  flex-basis: 100px;
   max-width: 75px; 
   height: 75px; 
   flex-shrink: 1;
@@ -56,3 +56,37 @@ body {
   left: 10px;
 }
 /* do not touch this */
+
+.flex-container-01 {
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-container-01 :nth-child(2) {
+  flex-shrink: 1;
+}
+
+.flex-container-02 {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-container-02 :nth-child(2){
+  flex-shrink: 2;
+}
+
+.flex-container-02 :last-child {
+  flex-shrink: 2;
+}
+
+.flex-container-03 {
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.flex-container-03 .flex-item-02 {
+  flex-shrink: 2;
+}
