@@ -47,3 +47,21 @@ body {
   color: #fff;
 }
 /* do not touch this */
+
+.flex-container-01 {
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+}
+
+.flex-container-02 {
+  flex-wrap: wrap-reverse;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.flex-container-03 {
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: flex-end;
+}

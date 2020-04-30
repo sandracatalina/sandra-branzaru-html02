@@ -47,3 +47,32 @@ body {
   color: #fff;
 }
 /* do not touch this */
+
+.flex-container-01 {
+  flex-direction: column-reverse;
+}
+
+.flex-container-01 div:nth-of-type(2) {
+  order: 1S;
+}
+
+.flex-container-02 {
+  flex-direction: column;
+}
+
+.flex-container-02 :nth-child(4) {
+  order: -1;
+}
+
+.flex-container :last-child {
+  order: -2;
+}
+
+.flex-container-03 {
+  flex-direction: column-reverse;
+}
+
+#my-box-01 {
+  order: 2;
+}
+
