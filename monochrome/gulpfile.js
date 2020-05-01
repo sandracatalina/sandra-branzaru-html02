@@ -8,7 +8,7 @@ const gulp = require('gulp'),
   open = require('gulp-open'),
   connect = require('gulp-connect'),
   copy = require('gulp-copy'),
-  mode = require('gulp-mode')(), 
+  mode = require('gulp-mode')(),
   rename = require('gulp-rename'),
   eslint = require('gulp-eslint'),
   sassLint = require('gulp-sass-lint');
@@ -43,7 +43,7 @@ gulp.task('js', function () {
     }))
     .pipe(eslint.format())
     .pipe(eslint.failAfterError())
-    .pipe(concat('app.min.js'))    
+    .pipe(concat('app.min.js'))
     .pipe(mode.production(uglify()))
     .pipe(mode.production(maps.init()))
     .pipe(mode.production(maps.write('./')))
@@ -77,6 +77,7 @@ gulp.task('connect', function (done) {
 
 gulp.task('fonts', function() {
   return gulp.src([
+    './node_modules/@fortawesome/fontawesome-free/webfonts/**/*',
     './fonts/**/*',
   ])
     .pipe(gulp.dest('./dist/fonts'));
@@ -95,7 +96,7 @@ gulp.task('watch', function (done) {
   gulp.watch('./js/**/*.js', gulp.series('js'));
   gulp.watch('./html/**/*.html', gulp.series('html'));
   gulp.watch('./img', gulp.series('img'));
-  
+
   done();
 })
 
