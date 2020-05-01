@@ -2,13 +2,13 @@
   position: relative;
 
   .nav-main {
+    position: absolute;
+    top: 0;
+    left: -100vw;
     background-color: rgba($brand-main, .7);
     width: 100vw;
     height: 100vh;
     transition: left .5s;
-    position: absolute;
-    top: 0;
-    left: -100vw;
 
     .menu-open & {
       left: 0;
