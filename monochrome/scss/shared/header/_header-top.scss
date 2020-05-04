@@ -1,0 +1,71 @@
+.header-top {
+ width: 100%;
+
+  .shipping {
+    height: 45px;
+    margin-top: 13px;
+    width: 100%;
+    display: flex;
+    background-color: #FFFFFF ;
+    justify-content: space-around;
+    align-items: center;
+    color:#5E5A5A;
+    margin-right: 19px;
+    margin-top: 19px;
+
+  }
+
+
+      .user-controls {
+        width: 100%;
+        display: inline-flex;
+        justify-content: space-around;
+        height: 60px;
+        border-top: 0.20000000298023224px solid #CCCCCC;
+     
+
+      h1 {
+        font-family: 'Baskerville Old Face BQ, Regular';
+        font-style: 'regular';
+        font-weight: 100px;
+        font-size: 19px; 
+        letter-spacing: 0px;
+        opacity: 1; 
+        margin-left: 18px;
+        padding-top: 16px;
+
+      }
+
+      .control-top {
+        margin-right: 36px;
+        padding-right: 5px;
+           
+      li {
+        display: inline-block;
+
+
+      .fa-user {
+        width: 21px;
+        height: 18px;
+
+      }
+
+      .fa-heart {
+        width: 21px;
+        height: 18px;
+
+      }
+
+      .fa-shopping-bag {
+        width: 21px;
+        height: 18px;
+
+      }
+
+      }
+      
+     
+      }
+      }
+
+}

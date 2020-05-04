@@ -17,14 +17,14 @@
     p {
       display: none;
     }
+  }
 
-    .product-tile {
-      display: none;
+  .product-tile {
+    display: none;
+  } 
 
-      &:first-child {
-        display: block;
-      }
-    }
+  &:first-child {
+    display: block;
   }
 }
 
