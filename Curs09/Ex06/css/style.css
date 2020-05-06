@@ -67,5 +67,33 @@
 }
 
 .flex-container-03 :nth-child(4) {
-flex-grow: 2;
+  flex-grow: 2;
+}
+
+.flex-container-04 {
+  flex-direction: row-reverse;
+}
+
+.flex-container-04 div:nth-of-type(5){
+  flex-grow: 1;
+}
+
+.flex-container-05 {
+  align-items: flex-end;
+}
+
+.flex-container-05 div:nth-of-type(3){
+  flex-grow: 1;
+}
+
+.flex-container-05 div:nth-of-type(4){
+  flex-grow: 2;
+}
+
+.flex-container-06 {
+  flex-direction: row-reverse;
+}
+
+.flex-container-06 div:nth-of-type(4){
+  flex-grow: 1;
 }

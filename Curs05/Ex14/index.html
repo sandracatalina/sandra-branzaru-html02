@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <form class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Formular reteta</h1>
+      </div>
+    </div>
+    <!-- /.row  -->
+
+    <div class="row">
+      <div class="col">
+        <h2>Reteta</h2>
+      </div>
+    </div>
+    <!-- /.row  -->
+
+    <div class="row">
+      <div class="col-12">
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <label for="nume"
+              class="input-group-text"
+            >Nume reteta * </label>
+          </div>
+
+          <input type="text"
+            class="form-control"
+            id="nume"
+            placeholder="Nume reteta *"
+            required
+          >
+        </div>
+        <!-- /nume reteta  -->
+
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <label for="long-description" class="input-group-text">
+              Desciere Lunga *
+            </label>
+          </div>
+
+          <textarea class="form-control"
+            id="long-description"
+            rows="10"
+            placeholder="Descriere Lunga *"
+            required
+          ></textarea>
+        </div>
+        <!-- /descriere lunga  -->
+
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <label for="short-description" class="input-group-text">
+              Descriere scurta *
+            </label>
+          </div>
+
+          <textarea id="short-description"
+            rows="4"
+            class="form-control"
+            placeholder="Descriere scurta *"
+            required
+          ></textarea>
+        </div>
+        <!-- /descriere scurta  -->
+      </div>
+
+      <div class="col-12">
+        <div class="custom-file mb-2">
+          <label for="custom-file"
+            class="custom-file-label"
+          >
+            Imagine principala *
+          </label>
+          <input
+            type="file"
+            class="custom-file-input"
+            id="custom-file"
+            required
+          >
+        </div>
+        <!-- /main image  -->
+
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <label for="author"
+              class="input-group-text"
+            >Autor *</label>
+          </div>
+
+          <select id="author"
+            class="form-control"
+          >
+            <option value="">--autor--</option>
+          </select>
+        </div>
+        <!-- /autor -->
+      </div>
+    </div>
+    <!-- /row  -->
+
+    <div class="row">
+      <div class="col">
+        <h2>Autor</h2>
+      </div>
+    </div>
+    <!-- /row  -->
+
+    <div class="row">
+      <div class="col">
+        <div class="custom-control custom-switch">
+          <input type="checkbox"
+            class="custom-control-input"
+            id="author-switch"
+          >
+          <label for="author-switch"
+            class="custom-control-label"
+          >Adauga autor</label>
+        </div>
+      </div>
+    </div>
+    <!-- /row  -->
+
+    <div class="row">
+      <div class="col-12">
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <label for="author-name"
+              class="input-group-text"
+            >Numele autorului *</label>
+          </div>
+
+          <input type="text"
+            class="form-control"
+            id="author-name"
+            placeholder="Numele autorului *"
+            required
+          >
+        </div>
+        <!-- /author name  -->
+
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <label for="author-surname"
+              class="input-group-text"
+            >Prenumele autorului *</label>
+          </div>
+
+          <input type="text"
+            class="form-control"
+            id="author-surname"
+            required
+            placeholder="Prenumele autorului *"
+          >
+        </div>
+        <!-- /author surname  -->
+
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <label for="author-email"
+              class="input-group-text"
+            >Email *</label>
+          </div>
+
+          <input type="email"
+            class="form-control"
+            id="author-email"
+            required
+            placeholder="Email *"
+          >
+        </div>
+        <!-- /author email  -->
+      </div>
+
+      <div class="col-12">
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <label for="author-website"
+              class="input-group-text"
+            >Website</label>
+          </div>
+
+          <input type="text"
+            class="form-control"
+            id="author-website"
+            placeholder="Website"
+          >
+        </div>
+        <!-- /author website  -->
+      </div>
+    </div>
+    <!-- /row  -->
+
+    <div class="row">
+      <div class="col">
+        <h2>Ingrediente</h2>
+      </div>
+    </div>
+    <!-- /row  -->
+
+    <div class="row">
+      <div class="col-12">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <label for="ingredient-name"
+              class="input-group-text"
+            >Nume ingredient *</label>
+          </div>
+
+          <input type="text"
+            class="form-control"
+            id="ingredient-name"
+            required
+            placeholder="Nume ingredient *"
+          >
+        </div>
+      </div>
+
+      <div class="col-12">
+
+      </div>
+    </div>
+    <!-- /row  -->
+  </form>
+  <!-- /form  -->
+
+</body>
+</html>
