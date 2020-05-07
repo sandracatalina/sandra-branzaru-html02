@@ -97,6 +97,7 @@ body {
   justify-content: center;
 }
 
+.flex-container-04 div:nth-of-type(3) {
   flex-shrink: 3;
 }
 
