@@ -76,3 +76,49 @@ body {
   order: 2;
 }
 
+.flex-container-04 {
+  flex-direction: column;
+}
+
+.flex-container-04 :nth-child(3) {
+  order: -2;
+}
+
+.flex-container-04 :nth-child(4) {
+  order: 4;
+}
+
+.flex-container-04 :nth-child(5) {
+ order: 3;
+}
+
+.flex-container-05 {
+  flex-direction: column-reverse;
+}
+
+.flex-container-05 :nth-child(2) {
+  order: 4;
+}
+
+.flex-container-05 :nth-child(4) {
+  order: -2;
+}
+
+.flex-container-05 :nth-child(5) {
+  order: 1;
+}
+
+.flex-container-06 {
+  flex-direction: column;
+}
+
+.flex-container-06 :nth-child(5) {
+  order: 4;
+}
+
+.flex-container-06 :nth-child(3) {
+  order: -1;
+}
+
+
+
