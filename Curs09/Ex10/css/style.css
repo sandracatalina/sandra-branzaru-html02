@@ -58,6 +58,10 @@ order:-1;
   flex-direction: row-reverse;
 }
 
-.flex-container-03 :nth-child(4) {
+.flex-container div:nth-of-type(3) {
+  order: -1;
+}
+
+.flex-container div:nth-of-type(4) {
   order: 1;
 }

@@ -69,7 +69,6 @@ body {
 .flex-container-04 {
   flex-direction:column-reverse;
   justify-content: flex-end;
- 
 }
 
 .flex-container-05 {
@@ -82,6 +81,5 @@ body {
   flex-direction: column-reverse;
   justify-content: center;
   align-items: flex-end;
-
 }
 

@@ -90,3 +90,37 @@ body {
 .flex-container-03 .flex-item-02 {
   flex-shrink: 2;
 }
+
+.flex-container-04 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container-04 div:nth-of-type(3){
+  flex-shrink: 3;
+}
+
+.flex-container-04 div:nth-of-type(4){
+  flex-shrink: 3;
+}
+
+.flex-container-05 {
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.flex-container-05 div:nth-of-type(4) {
+  flex-shrink: 3;
+}
+
+.flex-container-06 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-container-06 div:nth-of-type(5) {
+  flex-shrink: 3;
+}
