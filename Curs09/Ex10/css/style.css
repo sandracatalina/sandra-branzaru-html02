@@ -54,14 +54,35 @@ order:-1;
   order: -2;
 }
 
+
 .flex-container-03 {
   flex-direction: row-reverse;
 }
 
-.flex-container div:nth-of-type(3) {
+.flex-container-03 :nth-of-type(4) {
+ order: 1;
+}
+
+.flex-container-04 :nth-of-type(3){
+ order: -1;
+}
+
+.flex-container-04 :nth-of-type(4){
+  order: 4;
+ }
+
+ .flex-container-05 {
+  flex-direction: row-reverse;
+}
+
+.flex-container-05 :nth-child(2) {
+  order: 1;
+}
+
+.flex-container-05 :nth-child(4) {
   order: -1;
 }
 
-.flex-container div:nth-of-type(4) {
-  order: 1;
+.flex-container-06 :nth-child(3) {
+  order: -1;
 }
