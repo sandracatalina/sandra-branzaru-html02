@@ -3,10 +3,19 @@
   flex-direction: row-reverse;
   justify-content: center;
   margin-top: 8px;
+
+  @include media-breakpoint-up('md') {
+    flex-direction: row;
+  }
 }
 
 .header-contact {
   display: none;
+}
+
+ @include media-breakpoint-up(md) {
+ display: block;
+ }
 }
 
 .header-controls {
@@ -21,6 +30,10 @@
     text-align: center;
     padding: 0 12px;
 
+    @include media-breakpoint-up(md) {
+      display: none;
+    }
+
     .site-search {
       border: 0;
       width: 100%;
@@ -33,6 +46,9 @@
   display: flex;
   align-items: center;
 
+  @include media-breakpoint-up('md') {
+    
+  }
   img {
     width: 25px;
     margin: 0 12px;
@@ -57,6 +73,10 @@
 .logo {
   display: block;
   width: 50px;
+
+  @include media-breakpoint-up ('md') {
+    width: 130px;
+  }
 
   img {
     width: 100%;

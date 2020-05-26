@@ -3,4 +3,10 @@
   max-width: $container-width;
   margin: 0 auto;
   display: block;
+
+  @include media-breakpoint-up('md') {
+    max-width: 1290px;
+  }
 }
+
+

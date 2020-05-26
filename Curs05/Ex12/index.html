@@ -5,34 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 
-  <link rel="stylesheet" href="css/style.scss">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .exercise-row {
+      height: 75px;
+    }
+  </style>
 </head>
 <body>
-  
   <div class="container">
     <div class="row">
       <div class="col">
-        <h1>Aliniate folosind flexbox</h1>
+        <h1>Aliniate folosind Flexbox</h1>
       </div>
     </div>
-  </div>
 
-  <div class="border border-info">
-    <div class="row justify-content-between exercise-row">
-
-      <div class="col-4 bg-info h-100"></div>
-      <div class="col-4 bg-info h-100"></div>
+    <div class="border border-info">
+      <div class="row justify-content-between exercise-row">
+        <div class="col-4 bg-info h-100"></div>
+        <div class="col-4 bg-info h-100"></div>
       </div>
-
+      
       <div class="row justify-content-center exercise-row">
-        <div class="col-4 bg-info h-100"></div>
-        </div>
+        <div class="col-4 bg-success h-100"></div>
+      </div>
 
-        <div class="col-4 bg-info h-100"></div>
-        <div class="col-4 bg-info h-100"></div>
-        </div>
+      <div class="row justify-content-between exercise-row">
+        <div class="col-4 bg-danger h-100"></div>
+        <div class="col-4 bg-danger h-100"></div>
+      </div>
     </div>
   </div>
+
+  <div class="container border border-success my-2">
+    <div class="row exercise-row  justify-content-center">
+      <div class="col-4  h-100 bg-secondary"></div>
+      
+    </div>
+    <div class="row exercise-row justify-content-center">
+      <div class="col-4  h-100 bg-info"></div>
+    </div>
+
+    <div class="row exercise-row justify-content-end">
+      <div class="col-4  h-100 bg-info"></div>
+    </div>
+  </div>
+  
 
   <div class="container">
     <div class="row">
@@ -42,20 +60,35 @@
     </div>
   </div>
 
-  <div class ="container border border-warning"></div>
-  <div class="row-exercise-row">
-    <div class="col-4 h-100 bg-info"></div>
-    <div class="col-4 offset-4 h-100 bg-info"></div>>
-  </div>
-  <div class="row-exercise-row">
-    <div class="col-4 offset-4 h-100 bg-info"></div>>
-  </div>
-  <div class="row-exercise-row">
-    <div class="col-4 h-100 bg-info"></div>
-    <div class="col-4 offset-4 h-100 bg-info"></div>>
+  <div class="container border border-info">
+    <div class="row exercise-row">
+      <div class="col-4 h-100 bg-info"></div>
+      <div class="col-4 offset-4 h-100 bg-info"></div>
+    </div>
+
+    <div class="row exercise-row">
+      <div class="col-4 offset-4 h-100 bg-info"></div>
+    </div>
+
+    <div class="row exercise-row">
+      <div class="col-4 h-100 bg-info"></div>
+      <div class="col-4 offset-4 h-100 bg-info"></div>
+    </div>
   </div>
 
+  <div class="container border border-warning">
+    <div class="row exercise-row ">
+      <div class="col-4 offset-4 h-100 bg-secondary"></div>
+    </div>
 
+    <div class="row exercise-row">
+      <div class="col-4 offset-4 h-100 bg-info"></div>
+    </div>
+
+    <div class="row exercise-row">
+      <div class="col-4 offset-8 h-100 bg-info"></div>
+    </div>
+  </div>
 
 </body>
 </html>
